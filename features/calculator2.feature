@@ -1,8 +1,8 @@
 Feature: Calculator Add
 
   Scenario: adding 0 numbers
-    Given the first input is NULL
-    And the second input is NULL
+    Given the first input is empty
+    And the second input is empty
     When the add button is pressed
     Then 0 is shown on the display.
 
